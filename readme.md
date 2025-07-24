@@ -18,6 +18,9 @@ docker-compose up
 
 cargo run -q
 
+# to stop the db server, run:
+docker-compose down
+
 ```
 
 ## using sqlx for migrations
